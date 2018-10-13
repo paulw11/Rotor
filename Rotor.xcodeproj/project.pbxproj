@@ -12,6 +12,8 @@
 		BBAF41D02170B19D00CFD0B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBAF41CE2170B19D00CFD0B2 /* Main.storyboard */; };
 		BBAF41D22170B1A200CFD0B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBAF41D12170B1A200CFD0B2 /* Assets.xcassets */; };
 		BBAF41D52170B1A200CFD0B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBAF41D32170B1A200CFD0B2 /* LaunchScreen.storyboard */; };
+		BBAF41DD2170B1C200CFD0B2 /* DiamondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBAF41DC2170B1C200CFD0B2 /* DiamondView.swift */; };
+		BBFC04CF2170B9EC00BDE5AD /* DiamondRotorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFC04CE2170B9EC00BDE5AD /* DiamondRotorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		BBAF41D12170B1A200CFD0B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBAF41D42170B1A200CFD0B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBAF41D62170B1A200CFD0B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBAF41DC2170B1C200CFD0B2 /* DiamondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondView.swift; sourceTree = "<group>"; };
+		BBFC04CE2170B9EC00BDE5AD /* DiamondRotorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiamondRotorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				BBAF41CA2170B19D00CFD0B2 /* AppDelegate.swift */,
+				BBAF41DC2170B1C200CFD0B2 /* DiamondView.swift */,
+				BBFC04CE2170B9EC00BDE5AD /* DiamondRotorView.swift */,
 				BBAF41CC2170B19D00CFD0B2 /* ViewController.swift */,
 				BBAF41CE2170B19D00CFD0B2 /* Main.storyboard */,
 				BBAF41D12170B1A200CFD0B2 /* Assets.xcassets */,
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBAF41CD2170B19D00CFD0B2 /* ViewController.swift in Sources */,
+				BBAF41DD2170B1C200CFD0B2 /* DiamondView.swift in Sources */,
+				BBFC04CF2170B9EC00BDE5AD /* DiamondRotorView.swift in Sources */,
 				BBAF41CB2170B19D00CFD0B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
